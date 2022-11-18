@@ -1,5 +1,10 @@
 .container {
-  padding: 0 2rem;
+  padding: 2rem 2rem;
+  overflow-y: scroll;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .main {
@@ -116,13 +121,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }

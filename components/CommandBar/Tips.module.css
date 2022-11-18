@@ -1,0 +1,40 @@
+#tips-container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 0;
+    flex: 0;
+    width: fit-content;
+    color: #6941C6;
+    background: #F9F5FF;
+    padding: 4px 8px;
+    border-radius: 50px;
+}
+
+.tips {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #101828;
+}
+
+.helper-text {
+    color: #475467;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.key {
+    background: #F9FAFB;
+    border: 1px solid #F2F4F7;
+    padding: 2px 4px;
+    border-radius: 4px;
+}

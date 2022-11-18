@@ -1,0 +1,21 @@
+#command-bar {
+    position: absolute;
+    width: 280px;
+    max-height: 490px;
+
+    /*TODO(lg): set top and left dynamically depending on the last charcter typed, and make it draggable  */
+    top: 160px;
+    left: 100px;
+
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    overflow: hidden;
+}

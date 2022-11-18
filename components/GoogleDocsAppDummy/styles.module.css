@@ -1,0 +1,21 @@
+#google-docs-app {
+    padding: 6rem 4rem;
+    box-shadow: 0 1px 3px 1px rgb(60 64 67 / 15%);
+    position: relative;
+
+    /* size below was taken from the google docs app */
+    width: 816px;
+    height: 1056px;
+}
+
+#google-docs-app>textarea {
+    border: 0;
+    line-height: 1.75rem;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+#google-docs-app>textarea:focus {
+    outline: none;
+}
