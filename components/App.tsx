@@ -6,7 +6,6 @@ const App = () => {
     const [value, setValue] = useState('');
 
     const showCommandBar = useShouldShowCommandBar(value);
-
     return (
         <GoogleDocsAppDummy value={value} onChange={setValue}>
             {showCommandBar && <CommandBar />}

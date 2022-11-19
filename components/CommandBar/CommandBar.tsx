@@ -17,7 +17,7 @@ const CommandBar: React.FC = () => {
     }
 
     return (
-        <div id={styles['command-bar']}>
+        <div data-testid="command-bar" id={styles['command-bar']}>
             <HeaderInput showHelp={value.length === defaultInputValue.length} value={value} onChange={handleValueChange} />
             <SuggestedActions value={value.replace(defaultInputValue, '')} />
             {value.length !== defaultInputValue.length && <Tips />}

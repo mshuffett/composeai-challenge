@@ -41,6 +41,7 @@ const SuggestedActions: React.FC<SuggestedActionsProps> = ({ value }) => {
         <div id={styles['suggested-actions-container']}>
             <span>Type anything or...</span>
             {actions.map(action => <Action
+                key={action.id}
                 preselected={action.id === preSelectedAction?.id}
                 action={action}
                 onActionSelected={() => handleSelectAction(action)}
